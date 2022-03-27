@@ -3,7 +3,7 @@ title: Über mich
 date: 2022-03-27
 draft: false
 ---
-Mein Name ist Jan Kremer. Ich bin 25 Jahre alt. 
+Mein Name ist Jan Kremer. Ich bin 25 Jahre alt und studiere Pharmazie an der Uni Regensburg.
 ## Email
 [mail@jankremer.eu](mailto:mail@jankremer.eu)
 ## PGP
