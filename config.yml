@@ -1,0 +1,149 @@
+baseURL: "https://jankremer.eu/"
+title: Jan Kremer
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Jan Kremer
+  description: "Blog von Jan Kremer mit Lebenslauf"
+  keywords: [Blog, Portfolio, Lebenslauf, CV, PaperMod]
+  author: Jan Kremer
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Jan Kremer
+    subtitle: "Willkommen auf meiner Webseite"
+    imageUrl: "pharmacist-0.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: pharmacist-0
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Über mich
+        url: about
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Willkommen auf dem Blog von Jan Kremer 🧪"
+    Content: Dies ist ein kleines Projekt, dass ich in meiner Freizeit aufgesetzt habe. Mal schauen, wohin es führt.
+
+  socialIcons:
+    - name: cv
+      url: "/cv/"
+    - name: email
+      url: "mailto:mail@jankremer.eu"
+    - name: matrix
+      url: "https://matrix.to/#/@jankremer:matrix.org"
+    - name: key
+      url: "about/#pgp"
+    - name: github
+      url: "https://github.com/janurskremer"
+    - name: xmr
+      url: "about/#monero"
+    - name: btc
+      url: "about/#bitcoin"
+    - name: eth
+      url: "about/#ethereum"
+    - name: rss
+      url: "https://jankremer.eu/feed.xml"
+
+  #analytics:
+  #  google:
+  #    SiteVerificationTag: "XYZabc"
+
+  cover:
+    linkFullImages: true
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  #editPost:
+    URL: ""
+    Text: "Vorschläge" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: Über mich
+      url: /about/
+      weight: 20
+    - identifier: search
+      name: Suche
+      url: /search/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
