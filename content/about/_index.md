@@ -17,6 +17,8 @@ Fingerprint
 ## Matrix
 [@jankremer](https://matrix.to/#/@jankremer:matrix.org)
 # Crypto
+## OpenAlias
+XMR/BTC: `jankremer.eu`
 ## Monero
 `83ZtE7cBnsyTmBb5A79aDm637mCKWKuhGZZ3ZaQvjmpA5qwL6sejWEcKQnXF5Qd3N4XNCp4fbouTi9kUi8vNgPrfDQaEBMZ`
 [![](monero-qr.png)](monero-qr.png)
