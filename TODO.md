@@ -1,0 +1,3 @@
+- [ ] Change theme
+- [ ] Write cv.md
+- [ ] Use fork of PaperMod
