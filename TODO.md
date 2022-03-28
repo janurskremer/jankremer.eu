@@ -1,7 +1,7 @@
-- [ ] Change theme
+- [x] Change theme
 - [ ] Write cv.md
-- [ ] Use fork of PaperMod
+- [x] Use fork of PaperMod
 - [ ] Custom footer
 - [x] Fix QR codes
-- [ ] Prerelease
+- [x] Prerelease
 - [ ] Release
