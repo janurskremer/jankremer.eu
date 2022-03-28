@@ -2,4 +2,6 @@
 - [ ] Write cv.md
 - [ ] Use fork of PaperMod
 - [ ] Custom footer
-- [ ] Fix QR codes
+- [x] Fix QR codes
+- [ ] Prerelease
+- [ ] Release

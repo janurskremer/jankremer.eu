@@ -21,11 +21,11 @@ Fingerprint
 XMR/BTC: `jankremer.eu`
 ## Monero
 `83ZtE7cBnsyTmBb5A79aDm637mCKWKuhGZZ3ZaQvjmpA5qwL6sejWEcKQnXF5Qd3N4XNCp4fbouTi9kUi8vNgPrfDQaEBMZ`
-[![](monero-qr.png)](monero-qr.png)
+{{< figure src="monero-qr.png" link="monero-qr.png" align=center width="250px" >}}
 ## Bitcoin
 `bc1qf8qjt4gut2la8k4v3emfv7wrj6f3pfcjrj3slplnwrldkz7hqmaqaju7ym`
-[![](bitcoin-qr.png)](bitcoin-qr.png)
+{{< figure src="bitcoin-qr.png" link="bitcoin-qr.png" align=center width="250px" >}}
 
 ## Ethereum
 `0xc4cBDf9f57cb0229d19d885D5E4033a6223EDef7`
-[![](ethereum-qr.png)](ethereum-qr.png)
+{{< figure src="ethereum-qr.png" link="ethereum-qr.png" align=center width="250px" >}}
