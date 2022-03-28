@@ -35,18 +35,21 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Hugo files #
-##############
-/public/
-/resources/_gen/
-/themes/
-
-hugo.exe
-hugo.linux
-hugo.darwin
-
-.DS_Store
 node_modules
 dist
 tmp
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+/themes/PaperMod/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
