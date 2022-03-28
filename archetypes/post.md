@@ -1,8 +1,8 @@
 ---
-title: ""
+title: 
 date: 
-description: ""
-tags: [""]
+description: 
+tags: []
 # weight: 1
 # aliases: ["/first"]
 # author: ["Me", "You"] # multiple authors
