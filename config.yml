@@ -92,7 +92,7 @@ params:
     - name: Ethereum
       url: "about/#ethereum"
     - name: RSS
-      url: "https://jankremer.eu/feed.xml"
+      url: "https://jankremer.eu/index.xml"
 
   cover:
     linkFullImages: true
