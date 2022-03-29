@@ -3,6 +3,7 @@
 - [ ] Custom footer
 - [ ] Fix feed
 - [ ] Fix search
+- [ ] Implement A11Y
 - [ ] Release
 # Done
 - [x] Change theme
