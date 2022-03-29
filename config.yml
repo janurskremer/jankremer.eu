@@ -48,6 +48,7 @@ params:
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/safari-pinned-tab.svg"
+    theme_color: hsl(40, 100%, 72%)
 
   label:
     text: "Jan Kremer"
@@ -132,10 +133,10 @@ menu:
       name: Über mich
       url: /about
       weight: 20
-    - identifier: search
-      name: Suche
-      url: /search
-      weight: 30
+#    - identifier: search
+#      name: Suche
+#      url: /search
+#      weight: 30
 
 privacy:
   disqus:
