@@ -1,7 +1,12 @@
-- [x] Change theme
+#ToDo
 - [ ] Write cv.md
-- [x] Use fork of PaperMod
 - [ ] Custom footer
-- [x] Fix QR codes
-- [x] Prerelease
+- [ ] Fix feed
+- [ ] Fix search
 - [ ] Release
+# Done
+- [x] Change theme
+- [x] Use fork of PaperMod
+- [x] Fix QR codes
+- [x] Fix FTP
+- [x] Prerelease
