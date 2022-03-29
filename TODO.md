@@ -1,6 +1,7 @@
 #ToDo
 - [ ] Write cv.md
 - [ ] Custom footer
+- [ ] Custom head
 - [ ] Fix feed
 - [ ] Fix search
 - [ ] Implement A11Y
