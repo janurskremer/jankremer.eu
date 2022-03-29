@@ -1,6 +1,7 @@
 #ToDo
 - [ ] Write cv.md
 - [ ] Fix search
+- [ ] Fix scroll bar
 - [ ] Implement A11Y
 - [ ] Release
 # Done
