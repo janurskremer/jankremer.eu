@@ -1,7 +1,7 @@
 ---
 title: git gud
 date: 2022-03-29
-description: "On my first experience using git"
+description: "Meine ersten Erfahrungen mit git"
 tags: [git]
 # weight: 1
 # aliases: ["/first"]
