@@ -1,10 +1,10 @@
 #ToDo
 - [ ] Write cv.md
-- [ ] Fix search
 - [ ] Fix scroll bar
 - [ ] Implement A11Y
 - [ ] Release
 # Done
+- [x] Fix search
 - [x] Custom footer
 - [x] Custom head
 - [x] Fix feed
