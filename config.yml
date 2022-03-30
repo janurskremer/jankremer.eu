@@ -133,10 +133,10 @@ menu:
       name: Über mich
       url: /about
       weight: 20
-#    - identifier: search
-#      name: Suche
-#      url: /search
-#      weight: 30
+    - identifier: search
+      name: Suche
+      url: /search
+      weight: 30
 
 privacy:
   disqus:

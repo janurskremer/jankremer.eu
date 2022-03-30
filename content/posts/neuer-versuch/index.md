@@ -11,7 +11,7 @@ canonicalURL: ""
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
-searchHidden: true
+searchHidden: false
 
 cover:
     image: "" # image path/url
