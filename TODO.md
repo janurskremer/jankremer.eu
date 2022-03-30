@@ -1,4 +1,5 @@
 #ToDo
+- [ ] Fix git
 - [ ] Write cv.md
 - [ ] Fix scroll bar
 - [ ] Implement A11Y
