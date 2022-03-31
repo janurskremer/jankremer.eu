@@ -1,5 +1,6 @@
 # ToDo
 - [ ] Write cv.md
+- [ ] Remove BTC and ETH
 - [ ] Fix scroll bar
 - [ ] Implement A11Y
 - [ ] Release
