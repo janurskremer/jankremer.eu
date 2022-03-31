@@ -1,10 +1,10 @@
 #ToDo
-- [ ] Fix git
 - [ ] Write cv.md
 - [ ] Fix scroll bar
 - [ ] Implement A11Y
 - [ ] Release
 # Done
+- [x] Fix git
 - [x] Fix pgp icon
 - [x] Fix search
 - [x] Custom footer
