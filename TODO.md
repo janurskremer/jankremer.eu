@@ -4,7 +4,8 @@
 
 - [ ] Write cv.md
 - [ ] Fix scroll bar
-- [ ] Implement A11Y
+- [ ] Implement i18n
+- [ ] Implement a11y
 - [ ] Release
 
 ## Done
