@@ -17,11 +17,11 @@ hideSummary: false
 searchHidden: false
 
 cover:
-    image: "" # image path/url
+    image: "git-logo.png" # image path/url
     alt: "" # alt text
     caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    relative: true # when using page bundles set this to true
+    hidden: false # only hide on current single page
 
 draft: true
 ---

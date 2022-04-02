@@ -1,9 +1,14 @@
-#ToDo
+# ToDo
+
+## Open
+
 - [ ] Write cv.md
 - [ ] Fix scroll bar
 - [ ] Implement A11Y
 - [ ] Release
-# Done
+
+## Done
+
 - [x] Fix git
 - [x] Fix pgp icon
 - [x] Fix search
@@ -15,3 +20,4 @@
 - [x] Fix QR codes
 - [x] Fix FTP
 - [x] Prerelease
+- [x] Fix Markdown
