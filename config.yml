@@ -88,10 +88,6 @@ params:
       url: "https://github.com/janurskremer"
     - name: Monero
       url: "about/#monero"
-    - name: Bitcoin
-      url: "about/#bitcoin"
-    - name: Ethereum
-      url: "about/#ethereum"
     - name: RSS
       url: "https://jankremer.eu/index.xml"
 
