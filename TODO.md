@@ -3,6 +3,7 @@
 ## Open
 
 - [ ] Write cv.md
+- [ ] Remove BTC and ETH
 - [ ] Fix scroll bar
 - [ ] Implement i18n
 - [ ] Implement a11y
