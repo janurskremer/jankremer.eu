@@ -3,6 +3,7 @@
 ## Open
 
 - [ ] Write cv.md
+- [ ] New design
 - [ ] Remove BTC and ETH
 - [ ] Fix scroll bar
 - [ ] Implement i18n
