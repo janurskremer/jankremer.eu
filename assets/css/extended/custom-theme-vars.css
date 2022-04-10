@@ -37,3 +37,7 @@
 .dark.list {
     background: var(--theme);
 }
+
+::-webkit-scrollbar {
+    background: var(--theme);
+}
