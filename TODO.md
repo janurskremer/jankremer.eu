@@ -3,7 +3,6 @@
 ## Open
 
 - [ ] Write cv.md
-- [ ] Remove BTC and ETH
 - [ ] Fix scroll bar
 - [ ] Implement i18n
 - [ ] Implement a11y
@@ -11,6 +10,7 @@
 
 ## Done
 
+- [x] Remove BTC and ETH
 - [x] New design
 - [x] Fix git
 - [x] Fix pgp icon

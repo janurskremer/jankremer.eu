@@ -1,8 +1,48 @@
 baseURL: "https://jankremer.eu/"
-languageCode: de-de
 title: Jan Kremer
+
 paginate: 5
 theme: PaperMod
+
+languageCode: de-de
+# copyright: Everything is mine
+defaultContentLanguage: de
+languages:
+    de:
+        languageName: "Deutsch"
+        weight: 1
+        menu:
+          main:
+            - identifier: posts
+              url: /posts
+              name: Posts
+              weight: 10
+            - identifier: about
+              name: Über mich
+              url: /about
+              weight: 20
+            - identifier: search
+              name: Suche
+              url: /search
+              weight: 30
+
+    en:
+        languageName: "English"
+        weight: 2
+        menu:
+          main:
+            - identifier: posts
+              url: /posts
+              name: Posts
+              weight: 10
+            - identifier: about
+              name: About me
+              url: /about
+              weight: 20
+            - identifier: search
+              name: Search
+              url: /search
+              weight: 30
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -118,21 +158,6 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
-
-menu:
-  main:
-    - identifier: posts
-      name: Posts
-      url: /posts
-      weight: 10
-    - identifier: about
-      name: Über mich
-      url: /about
-      weight: 20
-    - identifier: search
-      name: Suche
-      url: /search
-      weight: 30
 
 privacy:
   disqus:
