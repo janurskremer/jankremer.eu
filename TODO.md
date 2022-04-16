@@ -4,10 +4,10 @@
 
 - [ ] Write cv.md
 - [ ] Fix scroll bar
-- [ ] Release
 
 ## Done
 
+- [x] Release
 - [x] Implement i18n
 - [x] Implement a11y
 - [x] Remove BTC and ETH
