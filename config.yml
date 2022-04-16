@@ -2,7 +2,7 @@ baseURL: "https://jankremer.eu/"
 title: Jan Kremer
 
 paginate: 5
-theme: PaperMod
+theme: archie
 
 languageCode: de-de
 # copyright: Everything is mine
