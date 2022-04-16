@@ -1,6 +1,6 @@
 ---
-title: "Neuer Versuch, diesmal mit Hugo"
-date: 2022-03-28
+title: "Neuer Versuch, diesmal: Hugo"
+date: 2022-04-16
 description: ""
 tags: [hugo, jekyll, git]
 showToc: false
@@ -22,11 +22,10 @@ cover:
 
 draft: false
 ---
-Nach [Jekyll](https://jekyllrb.com/) probiere ich es jetzt mal mit [Hugo](https://gohugo.io/), da ich dies bei einigen Podcastern, vor allem *AlexAnarcho* und *Seth for privacy* gesehen habe.
+Nach [Jekyll](https://jekyllrb.com/) probiere ich es jetzt mal mit [Hugo](https://gohugo.io/), da ich dies bei einigen Podcastern, vor allem *AlexAnarcho* und *Seth for privacy*, gesehen habe.
 
-Seiten nicht neu laden zu müssen gefällt mir sehr gut, zudem finde ich das Theme **PaperMod** sehr schön.
-Es ist zudem super leicht, das Design anzupassen.
+Vor allem das Theme **PaperMod**, das die beiden benutzen, gefällt mir sehr gut, da es sehr schlicht ist.
 
-Die Dokumentation zu *Hugo* ist zwar nicht so übersichtlich wie die von *Jekyll*, dafür jedoch deutlich umfangreicher. Insgesamt liegt mir *Hugo* strukturell deutlich mehr.
+*Hugo*s Dokumention ist zudem deutlich umfangreicher und übersichtlicher als die von *Jekyll*, was die Implementation neuer Funktionen, wie z.B. der Übersetzungsunterstützung wesentlich einfacher gestaltet.
 
-Für dieses Projekt arbeitete ich zum ersten Mal mit *git*, ich werde dazu jedoch noch ausfürhlicher schreiben.
+Für dieses Projekt arbeitete ich zum ersten Mal mit *git*, ich werde dazu jedoch noch ausführlicher schreiben.

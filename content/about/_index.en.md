@@ -1,14 +1,15 @@
 ---
-title: Über mich
+title: About me
 date: 2022-04-16
 draft: false
 ---
-Mein Name ist Jan Kremer. Ich bin 25 Jahre alt und studiere Pharmazie an der Uni Regensburg. Nebenher lerne ich, wie man Webseiten erstellt und wie man Apps in Swift programmiert.
-Wenn ich nicht gerade lerne, mache ich gerne Sport, vor allem Laufen, Skifahren und Radfahren.
+My name is Jan Kremer. I'm 25 years old and I study pharmacy at University of Regensburg. Alongside that I'm learning to build websites and programming Swift apps at the moment.
 
-## Kontakt
+When I'm not studying nor programming, I like doing sports, mainly running, skiing and biking.
 
-### E-Mail
+## Contact
+
+### Email
 
 [mail@jankremer.eu](mailto:mail@jankremer.eu)
 

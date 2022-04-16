@@ -8,41 +8,46 @@ languageCode: de-de
 # copyright: Everything is mine
 defaultContentLanguage: de
 languages:
-    de:
-        languageName: "Deutsch"
-        weight: 1
-        menu:
-          main:
-            - identifier: posts
-              url: /posts
-              name: Posts
-              weight: 10
-            - identifier: about
-              name: Über mich
-              url: /about
-              weight: 20
-            - identifier: search
-              name: Suche
-              url: /search
-              weight: 30
+  de:
+    languageName: "DE"
+    weight: 1
 
-    en:
-        languageName: "English"
-        weight: 2
-        menu:
-          main:
-            - identifier: posts
-              url: /posts
-              name: Posts
-              weight: 10
-            - identifier: about
-              name: About me
-              url: /about
-              weight: 20
-            - identifier: search
-              name: Search
-              url: /search
-              weight: 30
+  en:
+    languageName: "EN"
+    weight: 2
+    homeInfoParams:
+      Title: "Welcome to Jan Kremer's Blog 🧪"
+      Content: This is a small project I set up to learn about programming and to write small blog posts.
+
+    menu:
+      main:
+        - identifier: posts
+          url: /posts
+          name: Posts
+          weight: 10
+        - identifier: about
+          name: About me
+          url: /about
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 30
+
+menu:
+  main:
+    - identifier: posts
+      url: /posts
+      name: Posts
+      weight: 10
+    - identifier: about
+      name: Über mich
+      url: /about
+      weight: 20
+    - identifier: search
+      name: Suche
+      url: /search
+      weight: 30
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -59,19 +64,19 @@ params:
   description: "Blog von Jan Kremer mit Lebenslauf"
   author: Jan Kremer
   # author: ["Me", "You"] # multiple authors
-  keywords: [Blog, Portfolio, Lebenslauf, CV, PaperMod]
+  keywords: [Blog, Portfolio, Lebenslauf, CV]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  displayFullLangName: true
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableScrollToTop: true
   comments: false
   hidemeta: false
   hideSummary: false
@@ -112,7 +117,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Willkommen auf dem Blog von Jan Kremer 🧪"
+    Title: "Willkommen auf Jan Kremers Blog 🧪"
     Content: Dies ist ein kleines Projekt, dass ich in meiner Freizeit aufgesetzt habe. Mal schauen, wohin es führt.
 
   socialIcons:
@@ -138,8 +143,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/janurskremer/jankremer.eu/blob/dev/content"
-    Text: "Voschläge" # edit text
+    URL: "https://github.com/janurskremer/jankremer.eu/blob/master/content/"
+    # Text: "Voschläge" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -154,10 +159,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 
 privacy:
   disqus:
@@ -197,7 +202,6 @@ markup:
     lineNos: false
     # noClasses: false
     style: solarized-dark
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

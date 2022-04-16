@@ -4,12 +4,12 @@
 
 - [ ] Write cv.md
 - [ ] Fix scroll bar
-- [ ] Implement i18n
-- [ ] Implement a11y
 - [ ] Release
 
 ## Done
 
+- [x] Implement i18n
+- [x] Implement a11y
 - [x] Remove BTC and ETH
 - [x] New design
 - [x] Fix git
