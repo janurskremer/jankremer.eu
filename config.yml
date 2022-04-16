@@ -132,7 +132,7 @@ params:
     - name: GitHub
       url: "https://github.com/janurskremer"
     - name: Monero
-      url: "xmr"
+      url: "https://xmr.jankremer.eu"
     - name: RSS
       url: "https://jankremer.eu/index.xml"
 
