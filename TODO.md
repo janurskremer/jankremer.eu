@@ -2,11 +2,13 @@
 
 ## Open
 
-- [ ] Write cv.md
 - [ ] Fix scroll bar
+- [ ] Translate CV
+- [ ] Fix CV design
 
 ## Done
 
+- [x] Write cv.md
 - [x] Release
 - [x] Implement i18n
 - [x] Implement a11y
