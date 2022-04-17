@@ -1,11 +1,26 @@
 baseURL: "https://jankremer.eu/"
 title: Jan Kremer
+# copyright: Everything is mine
 
 paginate: 5
 theme: PaperMod
 
+menu:
+  main:
+    - identifier: posts
+      url: /posts
+      name: Posts
+      weight: 10
+    - identifier: about
+      name: Über mich
+      url: /about
+      weight: 20
+    - identifier: search
+      name: Suche
+      url: /search
+      weight: 30
+
 languageCode: de-de
-# copyright: Everything is mine
 defaultContentLanguage: de
 languages:
   de:
@@ -34,21 +49,6 @@ languages:
           url: /search
           weight: 30
 
-menu:
-  main:
-    - identifier: posts
-      url: /posts
-      name: Posts
-      weight: 10
-    - identifier: about
-      name: Über mich
-      url: /about
-      weight: 20
-    - identifier: search
-      name: Suche
-      url: /search
-      weight: 30
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -69,12 +69,12 @@ params:
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  displayFullLangName: true
+  displayFullLangName: true # to show "EN" instead of "En"
   ShowReadingTime: false
   ShowWordCount: false
   ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false # e.g. Home >> Posts
   ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: true
@@ -102,19 +102,19 @@ params:
     iconHeight: 35
 
   # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: Jan Kremer
-    subtitle: "Willkommen auf meiner Webseite"
-    imageUrl: "pharmacist-0.png"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: pharmacist-0
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Über mich
-        url: about
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: Jan Kremer
+  #   subtitle: "Willkommen auf meiner Webseite"
+  #   imageUrl: "pharmacist-0.png"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: pharmacist-0
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Über mich
+  #       url: about
 
   # home-info mode
   homeInfoParams:
@@ -143,10 +143,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/janurskremer/jankremer.eu/blob/master/content/"
-    # Text: "Voschläge" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/janurskremer/jankremer.eu/blob/master/content/"
+  #   # Text: "Voschläge" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -169,15 +169,15 @@ privacy:
   disqus:
     disable: true
   googleAnalytics:
-    anonymizeIP: false
+    anonymizeIP: true
     disable: true
-    respectDoNotTrack: false
+    respectDoNotTrack: true
     useSessionStorage: false
   instagram:
     disable: true
-    simple: false
+    simple: true
   twitter:
-    disable: false
+    disable: true
     enableDNT: false
     simple: true
   vimeo:
@@ -186,7 +186,7 @@ privacy:
     simple: false
   youtube:
     disable: true
-    privacyEnhanced: false
+    privacyEnhanced: true
 
 markup:
   tableOfContents:
