@@ -1,8 +1,11 @@
 ---
 title: Lebenslauf
 date: 2022-04-16
+DateFormat: "2006-01-02"
 draft: false
 ---
+Zuletzt aktualisiert: {{< param date >}}
+
 ## Persönliche Daten
 
 |||
@@ -56,5 +59,3 @@ draft: false
 |||
 |---|---|
 |Hobbys|Tanzen, Pubquiz, Inline-Skating, Ski fahren, Badminton, Musik (E-Bass, Ukulele)|
-
-Stand: {{< param date >}}

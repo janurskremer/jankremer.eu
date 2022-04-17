@@ -1,8 +1,11 @@
 ---
 title: CV
 date: 2022-04-16
+dateFormat: 2006-01-06
 draft: false
 ---
+Last updated: {{< param date >}}
+
 ## Personal data
 
 |||
@@ -56,6 +59,3 @@ draft: false
 |||
 |---|---|
 |Hobbys|Tanzen, Pubquiz, Inline-Skating, Ski fahren, Badminton, Musik (E-Bass, Ukulele)|
-
-Stand: {{ .Params.date }}
-
