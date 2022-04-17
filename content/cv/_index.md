@@ -5,6 +5,8 @@ draft: false
 ---
 Zuletzt aktualisiert: 2022-04-17
 
+[Als PDF runterladen](CV-JUK-2022-04-17.pdf)
+
 ## Persönliche Daten
 
 |||
