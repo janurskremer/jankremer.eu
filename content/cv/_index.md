@@ -51,7 +51,8 @@ Zuletzt aktualisiert: 2022-04-17
 
 |||
 |---|---|
-|2014 – 2015|Assistent der Tanzlehrerin, Tanzschule Gutmann (Freiburg), von Anfängerkursen bis Tanzkreis, inklusive Ausschank|
+|2021|Studentische Hilfskraft, Universität Regensburg, Erstsemesterlabor Pharmazie|
+|2014 – 2015|Assistent der Tanzlehrerin, Tanzschule Gutmann (Freiburg)|
 
 ## Interessen
 

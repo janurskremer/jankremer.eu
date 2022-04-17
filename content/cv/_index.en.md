@@ -52,6 +52,7 @@ Last updated: 2022-04-17
 
 |||
 |---|---|
+|2021|Student assistant, University of Regensburg, pharmacy freshman laboratory|
 |2014 – 2015|Assistant to the dance instructor, Tanzschule Gutmann (Freiburg)|
 
 ## Interests
