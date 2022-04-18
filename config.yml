@@ -122,8 +122,8 @@ params:
     Content: Dies ist ein kleines Projekt, dass ich in meiner Freizeit aufgesetzt habe. Mal schauen, wohin es führt.
 
   socialIcons:
-    - name: CV
-      url: "cv"
+    # - name: CV
+    #   url: "cv"
     - name: email
       url: "mailto:mail@jankremer.eu"
     - name: PGP
@@ -132,8 +132,8 @@ params:
       url: "https://matrix.to/#/@jankremer:matrix.org"
     - name: GitHub
       url: "https://github.com/janurskremer"
-    - name: Monero
-      url: "https://xmr.jankremer.eu"
+    # - name: Monero
+    #   url: "https://xmr.jankremer.eu"
     - name: RSS
       url: "https://jankremer.eu/index.xml"
 
