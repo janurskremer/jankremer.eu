@@ -119,7 +119,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Willkommen auf Jan Kremers Blog 🧪"
-    Content: Dies ist ein kleines Projekt, dass ich in meiner Freizeit aufgesetzt habe. Mal schauen, wohin es führt.
+    Content: Dies ist ein kleines Projekt, um Programmieren zu lernen und einen kleinen Blog zu schreiben.
 
   socialIcons:
     # - name: CV

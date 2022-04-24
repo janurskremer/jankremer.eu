@@ -19,7 +19,7 @@ Fingerprint
 \
 `0A41 FED1 0DD3 6867 AF89  8FE1 A6AD D7D8 634E 6348`
 \
-[Public key](key.txt)
+[Public key](jankremer.gpg)
 
 ### Matrix
 

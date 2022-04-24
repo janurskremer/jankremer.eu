@@ -3,11 +3,11 @@
 ## Open
 
 - [ ] Fix scroll bar
-- [ ] Translate CV
-- [ ] Fix CV design
 
 ## Done
 
+- [x] Fix CV design
+- [x] Translate CV
 - [x] Write cv.md
 - [x] Release
 - [x] Implement i18n
